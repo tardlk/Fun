@@ -1,0 +1,133 @@
+﻿#EXTM3U x-tvg-url="https://epg.catvod.com/epg.xml"
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV1.png" group-title="澶棰戦亾",CCTV-1 缁煎悎
+http://ott.mobaibox.com/PLTV/*/224/3221228581/index.m3u8
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV2.png" group-title="澶棰戦亾",CCTV-2 璐㈢粡
+http://ott.mobaibox.com/PLTV/*/224/3221228844/index.m3u8
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV3.png" group-title="澶棰戦亾",CCTV-3 缁艰壓
+http://ott.mobaibox.com/PLTV/*/224/3221228499/index.m3u8
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV4.png" group-title="澶棰戦亾",CCTV-4 涓枃鍥介檯
+http://ott.mobaibox.com/PLTV/*/224/3221228091/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV5.png" group-title="澶棰戦亾",CCTV-5 浣撹偛
+http://ott.mobaibox.com/PLTV/*/224/3221228502/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV5.png" group-title="澶棰戦亾",CCTV-5+ 浣撹偛璧涗簨
+http://ott.mobaibox.com/PLTV/*/224/3221228492/index.m3u8
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV6.png" group-title="澶棰戦亾",CCTV-6 鐢靛奖
+http://ott.mobaibox.com/PLTV/*/224/3221228516/index.m3u8
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV7.png" group-title="澶棰戦亾",CCTV-7 鍥介槻鍐涗簨
+http://ott.mobaibox.com/PLTV/*/224/3221228643/index.m3u8
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV8.png" group-title="澶棰戦亾",CCTV-8 鐢佃鍓?http://ott.mobaibox.com/PLTV/*/224/3221228578/index.m3u8
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV9.png" group-title="澶棰戦亾",CCTV-9 绾綍
+http://ott.mobaibox.com/PLTV/*/224/3221228758/index.m3u8
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV10.png" group-title="澶棰戦亾",CCTV-10 绉戞暀
+http://ott.mobaibox.com/PLTV/*/224/3221228761/index.m3u8
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV11.png" group-title="澶棰戦亾",CCTV-11 鎴忔洸
+http://ott.mobaibox.com/PLTV/*/224/3221228585/index.m3u8
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV12.png" group-title="澶棰戦亾",CCTV-12 绀句細涓庢硶
+http://ott.mobaibox.com/PLTV/*/224/3221228657/index.m3u8
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV13.png" group-title="澶棰戦亾",CCTV-13 鏂伴椈
+http://ott.mobaibox.com/PLTV/*/224/3221228660/index.m3u8
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV14.png" group-title="澶棰戦亾",CCTV-14 灏戝効
+http://ott.mobaibox.com/PLTV/*/224/3221228636/index.m3u8
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV15.png" group-title="澶棰戦亾",CCTV-15 闊充箰
+http://ott.mobaibox.com/PLTV/*/224/3221228639/index.m3u8
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV16.png" group-title="澶棰戦亾",CCTV-16 濂ヨ繍璧涗簨
+http://ott.mobaibox.com/PLTV/*/224/3221228168/index.m3u8
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV17.png" group-title="澶棰戦亾",CCTV-17 鍐滀笟鍐滄潙
+http://ott.mobaibox.com/PLTV/*/224/3221228642/index.m3u8
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV4.png" group-title="澶棰戦亾",CCTV-4K 瓒呴珮娓?http://ott.mobaibox.com/PLTV/*/224/3221228472/index.m3u8
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/CCTV8.png" group-title="澶棰戦亾",CCTV-8K 瓒呴珮娓?http://ott.mobaibox.com/PLTV/*/224/3221228165/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-绗竴鍓у満" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/绗竴鍓у満.png" group-title="澶棰戦亾",CCTV-绗竴鍓у満
+http://ott.mobaibox.com/PLTV/*/224/3221228659/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-涓栫晫鍦扮悊" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/涓栫晫鍦扮悊.png" group-title="澶棰戦亾",CCTV-涓栫晫鍦扮悊
+http://ott.mobaibox.com/PLTV/*/224/3221228680/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-濂虫€ф椂灏? tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/濂虫€ф椂灏?png" group-title="澶棰戦亾",CCTV-濂虫€ф椂灏?http://ott.mobaibox.com/PLTV/*/224/3221228674/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-鎬€鏃у墽鍦? tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/鎬€鏃у墽鍦?png" group-title="澶棰戦亾",CCTV-鎬€鏃у墽鍦?http://ott.mobaibox.com/PLTV/*/224/3221228671/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-椋庝簯鍓у満" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/椋庝簯鍓у満.png" group-title="澶棰戦亾",CCTV-椋庝簯鍓у満
+http://ott.mobaibox.com/PLTV/*/224/3221228662/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-鍏靛櫒绉戞妧" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/鍏靛櫒绉戞妧.png" group-title="澶棰戦亾",CCTV-鍏靛櫒绉戞妧
+http://ott.mobaibox.com/PLTV/*/224/3221228689/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-澶╁厓鍥存" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/澶╁厓鍥存.png" group-title="澶棰戦亾",CCTV-澶╁厓鍥存
+http://ott.mobaibox.com/PLTV/*/224/3221228513/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-鐢佃鎸囧崡" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/鐢佃鎸囧崡.png" group-title="澶棰戦亾",CCTV-鐢佃鎸囧崡
+http://ott.mobaibox.com/PLTV/4/224/3221228689/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-澶鏂囧寲绮惧搧" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/鏂囧寲绮惧搧.png" group-title="澶棰戦亾",CCTV-澶鏂囧寲绮惧搧
+http://ott.mobaibox.com/PLTV/4/224/3221228677/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-椋庝簯闊充箰" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/椋庝簯闊充箰.png" group-title="澶棰戦亾",CCTV-椋庝簯闊充箰
+http://ott.mobaibox.com/PLTV/*/224/3221228665/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-椋庝簯瓒崇悆" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/椋庝簯瓒崇悆.png" group-title="澶棰戦亾",CCTV-椋庝簯瓒崇悆
+http://ott.mobaibox.com/PLTV/4/224/3221228668/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-楂樺皵澶綉鐞? tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/楂樺皵澶綉鐞?png" group-title="澶棰戦亾",CCTV-楂樺皵澶綉鐞?http://ott.mobaibox.com/PLTV/*/224/3221228138/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-鍙扮悆" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/澶鍙扮悆.png" group-title="澶棰戦亾",CCTV-鍙扮悆
+http://ott.mobaibox.com/PLTV/*/224/3221228683/index.m3u8
+#EXTINF:-1 tvg-name="婀栧崡鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/婀栧崡鍗.png" group-title="鍗棰戦亾",婀栧崡鍗
+http://ott.mobaibox.com/PLTV/*/224/3221227735/index.m3u8
+#EXTINF:-1 tvg-name="姹熻嫃鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/姹熻嫃鍗.png" group-title="鍗棰戦亾",姹熻嫃鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228861/index.m3u8
+#EXTINF:-1 tvg-name="娴欐睙鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/娴欐睙鍗.png" group-title="鍗棰戦亾",娴欐睙鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228591/index.m3u8
+#EXTINF:-1 tvg-name="涓滄柟鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/涓滄柟鍗.png" group-title="鍗棰戦亾",涓滄柟鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228150/index.m3u8
+#EXTINF:-1 tvg-name="鍖椾含鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/鍖椾含鍗.png" group-title="鍗棰戦亾",鍖椾含鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228890/index.m3u8
+#EXTINF:-1 tvg-name="灞变笢鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/灞变笢鍗.png" group-title="鍗棰戦亾",灞变笢鍗
+http://ott.mobaibox.com/PLTV/*/224/3221227697/index.m3u8
+#EXTINF:-1 tvg-name="娣卞湷鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/娣卞湷鍗.png" group-title="鍗棰戦亾",娣卞湷鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228835/index.m3u8
+#EXTINF:-1 tvg-name="鍥涘窛鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/鍥涘窛鍗.png" group-title="鍗棰戦亾",鍥涘窛鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228648/index.m3u8
+#EXTINF:-1 tvg-name="骞夸笢鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/骞夸笢鍗.png" group-title="鍗棰戦亾",骞夸笢鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228838/index.m3u8
+#EXTINF:-1 tvg-name="婀栧寳鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/婀栧寳鍗.png" group-title="鍗棰戦亾",婀栧寳鍗
+http://ott.mobaibox.com/PLTV/*/224/3221227665/index.m3u8
+#EXTINF:-1 tvg-name="瀹夊窘鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/瀹夊窘鍗.png" group-title="鍗棰戦亾",瀹夊窘鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228645/index.m3u8
+#EXTINF:-1 tvg-name="澶╂触鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/澶╂触鍗.png" group-title="鍗棰戦亾",澶╂触鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228239/index.m3u8
+#EXTINF:-1 tvg-name="閲嶅簡鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/閲嶅簡鍗.png" group-title="鍗棰戦亾",閲嶅簡鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228651/index.m3u8
+#EXTINF:-1 tvg-name="娌冲寳鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/娌冲寳鍗.png" group-title="鍗棰戦亾",娌冲寳鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228752/index.m3u8
+#EXTINF:-1 tvg-name="杈藉畞鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/杈藉畞鍗.png" group-title="鍗棰戦亾",杈藉畞鍗
+http://ott.mobaibox.com/PLTV/*/224/3221227700/index.m3u8
+#EXTINF:-1 tvg-name="鍚夋灄鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/鍚夋灄鍗.png" group-title="鍗棰戦亾",鍚夋灄鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228130/index.m3u8
+#EXTINF:-1 tvg-name="榛戦緳姹熷崼瑙? tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/榛戦緳姹熷崼瑙?png" group-title="鍗棰戦亾",榛戦緳姹熷崼瑙?http://ott.mobaibox.com/PLTV/*/224/3221228233/index.m3u8
+#EXTINF:-1 tvg-name="姹熻タ鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/姹熻タ鍗.png" group-title="鍗棰戦亾",姹熻タ鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228749/index.m3u8
+#EXTINF:-1 tvg-name="骞胯タ鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/骞胯タ鍗.png" group-title="鍗棰戦亾",骞胯タ鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228183/index.m3u8
+#EXTINF:-1 tvg-name="璐靛窞鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/璐靛窞鍗.png" group-title="鍗棰戦亾",璐靛窞鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228634/index.m3u8
+#EXTINF:-1 tvg-name="浜戝崡鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/浜戝崡鍗.png" group-title="鍗棰戦亾",浜戝崡鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228169/index.m3u8
+#EXTINF:-1 tvg-name="灞辫タ鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/灞辫タ鍗.png" group-title="鍗棰戦亾",灞辫タ鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228870/index.m3u8
+#EXTINF:-1 tvg-name="娌冲崡鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/娌冲崡鍗.png" group-title="鍗棰戦亾",娌冲崡鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228221/index.m3u8
+#EXTINF:-1 tvg-name="涓滃崡鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/涓滃崡鍗.png" group-title="鍗棰戦亾",涓滃崡鍗
+http://ott.mobaibox.com/PLTV/*/224/3221227670/index.m3u8
+#EXTINF:-1 tvg-name="鐢樿們鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/鐢樿們鍗.png" group-title="鍗棰戦亾",鐢樿們鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228166/index.m3u8
+#EXTINF:-1 tvg-name="闈掓捣鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/闈掓捣鍗.png" group-title="鍗棰戦亾",闈掓捣鍗
+http://ott.mobaibox.com/PLTV/*/224/3221227554/index.m3u8
+#EXTINF:-1 tvg-name="鏂扮枂鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/鏂扮枂鍗.png" group-title="鍗棰戦亾",鏂扮枂鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228290/index.m3u8
+#EXTINF:-1 tvg-name="瑗胯棌鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/瑗胯棌鍗.png" group-title="鍗棰戦亾",瑗胯棌鍗
+http://ott.mobaibox.com/PLTV/*/224/3221226376/index.m3u8
+#EXTINF:-1 tvg-name="娴峰崡鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/娴峰崡鍗.png" group-title="鍗棰戦亾",娴峰崡鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228139/index.m3u8
+#EXTINF:-1 tvg-name="鍏靛洟鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/鍏靛洟鍗.png" group-title="鍗棰戦亾",鍏靛洟鍗
+http://ott.mobaibox.com/PLTV/*/224/3221227025/index.m3u8
+#EXTINF:-1 tvg-name="涓夋矙鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/涓夋矙鍗.png" group-title="鍗棰戦亾",涓夋矙鍗
+http://ott.mobaibox.com/PLTV/*/224/3221228626/index.m3u8
+#EXTINF:-1 tvg-name="鍐呰挋鍙ゅ崼瑙? tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/鍐呰挋鍙ゅ崼瑙?png" group-title="鍗棰戦亾",鍐呰挋鍙ゅ崼瑙?http://ott.mobaibox.com/PLTV/*/224/3221225836/index.m3u8
+#EXTINF:-1 tvg-name="瀹佸鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/瀹佸鍗.png" group-title="鍗棰戦亾",瀹佸鍗
+http://ott.mobaibox.com/PLTV/*/224/3221225842/index.m3u8
+#EXTINF:-1 tvg-name="闄曡タ鍗" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/闄曡タ鍗.png" group-title="鍗棰戦亾",闄曡タ鍗
+http://ott.mobaibox.com/PLTV/*/224/3221227022/index.m3u8
+#EXTINF:-1 tvg-name="鍑ゅ嚢棣欐腐" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/鍑ゅ嚢鍗棣欐腐鍙?png" group-title="鍑ゅ嚢鍗",鍑ゅ嚢棣欐腐
+http://ott.mobaibox.com/PLTV/*/224/3221228530/index.m3u8
+#EXTINF:-1 tvg-name="鍑ゅ嚢涓枃" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/鍑ゅ嚢鍗涓枃鍙?png" group-title="鍑ゅ嚢鍗",鍑ゅ嚢涓枃
+http://ott.mobaibox.com/PLTV/*/224/3221228527/index.m3u8
+#EXTINF:-1 tvg-name="鍑ゅ嚢璧勮" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv/鍑ゅ嚢鍗璧勮鍙?png" group-title="鍑ゅ嚢鍗",鍑ゅ嚢璧勮
+http://ott.mobaibox.com/PLTV/*/224/3221228524/index.m3u8
