@@ -11,6 +11,22 @@
    "indexs": 1
   },
   {
+   "key": "a123tv",
+   "name": "A123TV",
+   "type": 3,
+   "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/js/a123tv.js",
+   "searchable": 1,
+   "quickSearch": 1
+  },
+  {
+   "key": "kanju",
+   "name": "看剧AI",
+   "type": 3,
+   "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/js/kanju.js",
+   "searchable": 1,
+   "quickSearch": 1
+  },
+  {
    "key": "cj_360zycom",
    "name": "360资源",
    "type": 1,
