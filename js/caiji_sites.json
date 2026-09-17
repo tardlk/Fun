@@ -1,0 +1,294 @@
+[
+  {
+    "name": "360资源",
+    "url": "https://360zy.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "H4sIALGjdWYC/zWRa3aCMBCFd5N9tAvomhRaFHoqcKpYrUd7VEQtCD6rYGAzee6iYYi/8s0kmZl7h/fPFO+RqKa8SKgdIV7chZ0j6qzZ/ReR+4p7Frc7dYLgCVAwUQ9r4t09M9+AIp/eippY22OtAN7Zkb5l3S+S25D7xiSP6j5yNWLXFGi2UemaWBzxslcTwZ/COKCX5yfETIcZY/i8u9A84akidykWUJr2LOoeoIkR88CHYZyU4y1Qu5TjEijfUjwAmiVaD+/DxNTN2K2E/sOQTWKg8x9dBkDHTE9Hl5EcWdqfenY3ewTDUIl4BCDiYWOjtzFTy9MB/NGBuBy5ZyKe7uqDTba0a/F9gURYSXPdWI1Z0FGzw456GSkW0sT0aiDx6rPTtFGP6O2kbvimEhdHu0SKESl/VPAhcKzKgJTwKOc+a7+rDarteHJQyZYl5sk/IOiszA8CAAA=",
+    "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&35&36&37&38&39&40&41&42&43&45&46&47&48&49&50&51&52&53"
+  },
+  {
+    "name": "豪华资源",
+    "url": "https://hhzyapi.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "H4sIALGjdWYC/zVPWw6CMBC8Tc/pI6D1w0eCKErCj1ofKBBjokg5DbsLt7Bdy1dnZrezMxS8WuWDVIKCF+hCYKqonluhO0X4zhglF/vg5sjskuIzt6ipTrT0SU4EzM6Nji2iaYFjj7UwNkusqRV8vhbhcImDkKdSuT2cbptSWtQ+ctBr54fVTYDvQcynjEABWzTvO+y1WzCRME578o/+J/StWlkKWOT4qdnhoLrId7L5Z0r1xLRc5D1hE0doWHe7mkOOUgpXXGaWkb5yyOPE1aLkbk78ALNMUSlMAQAA",
+    "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&20&23&24&25&26&27&28&30&31&32&33&34&35&36&37&38"
+  },
+  {
+    "name": "速播资源",
+    "url": "https://subocaiji.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "H4sIALGjdWYC/zWPWw6CMBBFd9N1+ohKNVGMiBpI+FHrAyJISHiV1bQzsAuZgl/39LY9k0En0zJh6GStWGoumF4/oH4zrOqWlwzLl5ZH5CvqlfSJ0EpgvjAk9rqoiMA6q5Kbd1yMtzC1YeKazvX7erT0dhyG6qvoLsPQXQxFQ9QFTwpsthSQf6BJDZ1uJtKYQtV3tJckVPLQzr5t5qlyw1QeaU+OG/Q/wA//h1CQctwtiHrJD0Ycn8r6AAAA",
+    "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&20&21&22&23&24&25&26&27"
+  },
+  {
+    "name": "红牛资源",
+    "url": "https://www.hongniuzy2.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "H4sIALGjdWYC/y2PXQ6CMBCEb9Nz+hOVaqIYFU0g8qRV1AgSEikUL9Pu1lvorj7Nl5nNZBbXlTOF8K89NjcnlcCm9VILNz1BeyGxJkE5ES5KvjERBgUMR0xq6eqGCPoh9CK+k+qfQrCzWrIXG6sVtcPzDl3JtD2wXBV2cyK3yKHu2Ctzknd65kE6c2bDNbwJf4tte8RwTLY1Kz94+Cq2eiYwpS8+mOVyptYAAAA=",
+    "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&19&20&21&29&30"
+  },
+  {
+    "name": "新浪资源",
+    "url": "https://api.xinlangapi.com",
+    "parse_url": "",
+    "api": "/xinlangapi.php/provide/vod",
+    "cate_exclude": "",
+    "class_name": "H4sIALGjdWYC/0WOXQ6CMBCEb9Nz+hOR+qAYETUh4UWtikaQkEihPU27W24hXU18msk3m53BuLaqZBjXTgSWC2YXF+hyhm3nuGQob1Ztkc89Nyr1DsMSpjNyYm2b1jsI90ZyuuPil8I4glFCLEkHTO4o+gP1wPsJuqLGVQGNJnYXqJf/Ffgd12dXSncnkqrwYrozRoH/adTGTV4Ms8fAP2ziC/TQAAAA",
+    "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&20&21&22&23&24"
+  },
+  {
+    "name": "暴风资源",
+    "url": "https://bfzyapi.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "H4sIALGjdWYC/zWRa3aCMBCFd5N1+kIFj1VOLdbq0Z6iBq0VrI8qGN1MMhN20WSAP8x34c7NZMDRWYkDuh2mvEiKGVEwUy63BPUh1AJLyH11y4i6B2g65HN5SdB9l6lLX9OtEm9Ew7bep5b0c47Zj3EzNRUy5ZZgx/HxYilfT+AaEy02xkC+QQK3B/nGK5jtiM5/ahkQHZPK50Vw/6ZZimTStslmlaI4qRTmpEFSiSKxEJjdtUvjqiXPJ+1Clw2VoNxKUG4pTAiOivXQQjUPdXxi+VdL+Z59LcWrbvzq81SmPaYvRxw2GcZ7KsK3BYJYx6lyegwXdllmDOVELO/0cbSAxDc3ZLh56ounbieZhQxfElN0VDM/wWysr8UOuwICc4PVEeo9qGU6rLN8vFWbD1xn5snyplDXhm75cJqbnqUOHZlN5OPzH964N6gIAgAA",
+    "class_url": "20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&35&36&37&38&39&40&41&42&43&44&45&46&47&48&49&50&51&52&53&54&55&56&57&58&65&66&67&68&69&70&71&72"
+  },
+  {
+    "name": "量子资源",
+    "url": "https://cj.lziapi.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "H4sIALGjdWYC/zWR607DMAyF3ybPCbuxDom1Yms3UTEJtmWI0bSMAr1kvEzspG9B46S/8h3b8XEcvSpBFjq4Y+bvWTcfEHCmm9YEtY3B4oTtuyclU6I47Yss6XmB4ykRj6BqLOFtiDcx1QXcZ3G+UXVAsSepam49uuMWfwXR7q0PW8Iz19cHSybLQa7pxjLH6krZ5IDpmaj8gX1MdMn9XdjzbjtzkzPbeZkPIjn0FoMgCy/8NPRGXzYIN4kX1G0QztsJ1R51OKMF0BoNfzXiiyn5aEafzHxfdDhmWmR0yMgeGAsjapjeM2xXEG36QN4ljSknJhNDGyfgVKgqdHnWvUwgWpDVzn7SP/ilxw64AQAA",
+    "class_url": "1&2&3&4&6&7&8&9&10&11&12&13&14&15&16&20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&35&36&37&38&39&40&41&42&43&44&45&46"
+  },
+  {
+    "name": "非凡资源",
+    "url": "http://cj.ffzyapi.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "H4sIAFhXhmYC/zWQWw6CMBBFd8M6NUakfggmChKJ/ADViFpiiPIobqadwi6kQ/k7d153ZtShlLxQZGP1v4tqHpJQSzVtT2odk9srtHdDgkdIfjQWaVJOAas1Et3LqtEESw8WPtYRarLgnERNMHbmoqbaY8hC+L6Q4tsY1gQ5Vd1OU/9kkh+xw2VQdZgNUohypPIjEx/pzUyvTOgQ2tPmlp7sslkE6WgxC7QwwmyDN5qyWUybGIHTZjF5T0K0mfJsfECsP/cHYziM500BAAA=",
+    "class_url": "1&2&3&4&6&7&8&9&10&11&12&13&14&15&16&20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&36"
+  },
+  {
+    "name": "索尼资源",
+    "url": "https://suoniapi.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "H4sIAFlXhmYC/z1RbXaCMBC8TU7QW/RSip/oq8orxVp56hNoaqtFq1gFopfJZsMtGhLor93Z3czuTNBNgB0IuomkXbApwSyXdkpg8CHyrzJw5qPdI+D5ql1m2D+IVkdn1IFrVmaiORENT8/ZtOqK/itPbV2bM57Skl1sKd5GZVYsN7owjXS4xGWA8V6jow6YfgJ70VTJL4SenghpMetWR6rHiqYGimK8r4HeU2sx640i86YG5px/regaNZqqnjG7K5C74B54/kY4e5bWj0zmPB0SjL9x0iLyfCxDsW6DM9BEXizjFDpDokxWBksayPikHGTC6+FyVyri+TtOutVOfrExNeaoo01HRnfhXeuxaST8bQX4JRQNKuMbrCwC3Rn6S2ztZH9BHh7RfKzwbQhqKRAdi7UjmkP1hcrrJ8m26hRjfCiDDs9m/LYicD3xLMDNXZ4HRLYdcVoIa4ueQ3C0V52ixeBikcJKxH5s9vwBtOQp10cCAAA=",
+    "class_url": "1&2&3&4&6&7&8&9&10&11&12&13&14&15&16&17&18&19&20&23&25&26&27&28&29&30&31&39&44&45&47&48&49&50&51&52&53&54&55&56&57&58&59&60&61&62&63&64&65&66&67&68&69&70"
+  },
+  {
+    "name": "快车资源",
+    "url": "https://kuaichezy.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "H4sIAFZXhmYC/z1RbXaCMBC8TU7QW/RSip/oq8orxVp56hNoaqtFq1gFopfJZsMtGhLor93Z3czuTNBNgB0IuomkXbApwSyXdkpg8CHyrzJw5qPdI+D5ql1m2D+IVkdn1IFrVmaiORENT8/ZtOqK/itPbV2bM57Skl1sKd5GZVYsN7owjXS4xGWA8V6jow6YfgJ70VTJL4SenghpMetWR6rHiqYGimK8r4HeU2sx640i86YG5px/regaNZqqnjG7K5C74B54/kY4e5bWj0zmPB0SjL9x0iLyfCxDsW6DM9BEXizjFDpDokxWBksayPikHGTC6+FyVyri+TtOutVOfrExNeaoo01HRnfhXeuxaST8bQX4JRQNKuMbrCwC3Rn6S2ztZH9BHh7RfKzwbQhqKRAdi7UjmkP1hcrrJ8m26hRjfCiDDs9m/LYicD3xLMDNXZ4HRLYdcVoIa4ueQ3C0V52ixeBikcJKxH5s9vwBtOQp10cCAAA=",
+    "class_url": "1&2&3&4&6&7&8&9&10&11&12&13&14&15&16&17&18&19&20&23&25&26&27&28&29&30&31&39&44&45&47&48&49&50&51&52&53&54&55&56&57&58&59&60&61&62&63&64&65&66&67&68&69&70"
+  },
+  {
+    "name": "️极速资源",
+    "url": "https://jszyapi.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "api": "/api.php/provide/vod/at/json/",
+    "class_name": "H4sIAGJXhmYC/zVP0W7CMBD7m3znYKIQkICKUsaoxMsgsBUooEpQmn5N7i79iyVH+hTbsXw2JaVVEUglKClBXwXmipqpF9r9Gh8XRtujf3C1Y3bM8V54ZOo9zSOSQwHjg9GZRzS64ueAtTRzJtZUDM+XR9ib40fKv1IFH46+TCU9sucC9DLkYf0nIBpAxqecQAlHmMcJNjoYXCXM8o68q78JvWorKwGzAp8Nl9UL27/ZcmOqiYAf1a6j4HEhbmFH3ORZ0RFODIR6TfvdcON+TmnMy8YX0r/ceDcMG2l7cvf+AYiMpdZZAQAA",
+    "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&20&23&24&25&26&27&28&29&30&31&32&33&34&35&36&37&38"
+  },
+  {
+    "name": "光速资源",
+    "url": "https://api.guangsuapi.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "H4sIAFVXhmYC/y2Oaw6CMBCEb9Nz+ohINVGMiBpJ+KNW4gskJPJoT9PulltIF3/Nl5nJ7GJYGpkzDEsrPMMFw6a1vGZmcYP27kTLGPmcmSjuY0fo5zCdEYmNqRpKufh7MA5gFBH5B11zSs+iO9I6PASqFdH3Dapw1CWpk+EiDv/A/kLeOoNKUb3InNhXZuTOber2ioFHJLd28rHlSddLhsmz7/0A4RcQUdYAAAA=",
+    "class_url": "1&2&3&4&6&7&8&9&10&11&12&13&14&15&16&20&21&22&23&24&25&30&31"
+  },
+  {
+    "name": "U酷资源",
+    "url": "https://api.ukuapi88.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "H4sIAFZXhmYC/zWP3Q6CMAyF32bPqVHRcYGSIJBoQmKC8xcwhESB8TRbO95COufV+dqenLYYNVq+GEaNEZ7mgmHXG94y7V+gv5MoeUS+Zjo+TmMi3LxgsbIkQv3piGC+g1lsfVy4KWxS1XLbO0jVCkqHdwlDbSnJrTwEDgHRbyP+7tHbCj4Dtcfsan11RWKKSss9Zar+jDuPyDRLU5QM4mpMOleMp6UOfVdMgdNzf1saQJq5ArOnXZ2v3R/olyhvE30Bu+ncCxgBAAA=",
+    "class_url": "1&2&3&4&6&7&8&9&10&11&12&13&14&15&16&20&21&22&23&24&25&26&27&28&30&31&32&33&34"
+  },
+  {
+    "name": "百度云资源",
+    "url": "https://api.apibdzy.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "H4sIAFdXhmYC/zVP7W7CMAx8mzzn1vGVTgKqla4TSEgTLMAQLaBMkDZ9msRO32KNm/67O9t3Z0yl1VeGqXRiYrlgWNWOK2bjA9S/zNQ/uJwgn3rB6A2hbNMteoSzK7yNCYnEPiuP4HUJLxntcRGmMMuN4qTtRPtFOfAooLl71G6PJHzuKV+drF6RZ1ygPoVsTCvsq9pFCc+GLs4Cm7lHdvxnqoy0e0kC5YRfOucuYyCPonMYCDkML6+1USI83t8MpA8KJDpjlvhabSShXIRaRn+46Obk2qh35uTIXQrWjwKBfA75NpD2e2ST+B8HkFGOfQEAAA==",
+    "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&36&37&38&39"
+  },
+  {
+    "name": "电影天堂资源",
+    "url": "https://dyttzy.tv",
+    "parse_url": "https://vip.dyttzyplay.com/?url=",
+    "cate_exclude": "",
+    "class_name": "动作片&喜剧片&科幻片&恐怖片&爱情片&剧情片&战争片&记录片&动画片&伦理片&国产剧&欧美剧&香港剧&韩国剧&台湾剧&日本剧&海外剧&泰国剧&短剧&国产动漫&日韩动漫&欧美动漫&港台动漫&海外动漫&大陆综艺&港台综艺&日韩综艺&欧美综艺",
+    "class_url": "6&7&9&10&8&11&12&20&37&34&13&16&14&15&21&22&23&24&36&29&30&31&32&33&25&26&27&28"
+  },
+  {
+    "name": "豆瓣资源",
+    "url": "https://dbzy.tv",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "H4sIALKtdWYC/zWLa3aCMBCFd5N9tAvoqBSl0qLQU6FjodjSbhVRi9gqYquELeS5k0li8s0/T17m3uM60Wv0Z525hRj+xP0AevJm/2t401l+5nUq8gTQQ8bL2w2/3D0jL93YxW7c2yP69U2/zV9Y132l10eUqK6+85bL23B06u49g/vL1wK3VlW25gOa3yvP+oJb61o9i8u+A+1bOquLhW8M1/tD+9Xyv9vX911fVq+5m6p249e91U9c9t8/wAA",
+    "class_url": "5&6&7&8&9&10&11&12&20&50&13&14&15&16&21&22&23&24&25&26&27&28&29&30&31&32&33&34&38&39&40&41&42&43&44&45&46&47&48&49&51&52"
+  },
+  {
+    "name": "无水印资源",
+    "url": "https://api.wsyzy.net",
+    "parse_url": "https://wsyzy.vip/m3u8/?url=",
+    "cate_exclude": "",
+    "class_name": "动作片&喜剧片&爱情片&科幻片&恐怖片&剧情片&战争片&纪录片&动画片&4K电影&邵氏电影&Netflix电影&国产剧&欧美剧&韩剧&日剧&港剧&台剧&泰剧&海外剧&Netflix自制剧&大陆综艺&日韩综艺&港台综艺&欧美综艺&演唱会&国产动漫&日韩动漫&欧美动漫&港台动漫&海外动漫&有声动漫&女频恋爱&反转爽剧&古装仙侠&年代穿越&脑洞悬疑&现代都市&擦边短剧&漫剧&港台三级&韩国伦理&西方伦理&日本伦理&两性课堂&写真热舞",
+    "class_url": "6&7&8&9&10&11&12&20&39&62&70&71&13&14&15&16&17&18&19&23&72&25&26&27&28&47&29&30&31&44&45&63&64&65&66&67&68&69&73&76&56&57&58&59&60&61"
+  },
+  {
+    "name": "猫眼资源",
+    "url": "https://www.maoyanzy.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "H4sIALGjdWYC/zWRa3aCMBCFd5N9tAvomhRaFHoqcKpYrUd7VEQtCD6rYGAzee6iYYi/8s0kmZl7h/fPFO+RqKa8SKgdIV7chZ0j6qzZ/ReR+4p7Frc7dYLgCVAwUQ9r4t09M9+AIp/eippY22OtAN7Zkb5l3S+S25D7xiSP6j5yNWLXFGi2UemaWBzxslcTwZ/COKCX5yfETIcZY/i8u9A84akidykWUJr2LOoeoIkR88CHYZyU4y1Qu5TjEijfUjwAmiVaD+/DxNTN2K2E/sOQTWKg8x9dBkDHTE9Hl5EcWdqfenY3ewTDUIl4BCDiYWOjtzFTy9MB/NGBuBy5ZyKe7uqDTba0a/F9gURYSXPdWI1Z0FGzw456GSkW0sT0aiDx6rPTtFGP6O2kbvimEhdHu0SKESl/VPAhcKzKgJTwKOc+a7+rDarteHJQyZYl5sk/IOiszA8CAAA=",
+    "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&35&36&37&38&39&40&41&42&43&45&46&47&48&49&50&51&52&53"
+  },
+  {
+    "name": "最大资源",
+    "url": "https://zuidazy.co",
+    "parse_url": "https://jx.zdplay.cc/m3u8Player/?url=",
+    "cate_exclude": "",
+    "class_name": "H4sIAPnadWoC/zWSWVLCQBCGbzMn8BZWeQutsspHH3zUIEugBFJiEEkBxTYqICCLJGTgMtPTk1s4S+ap+5vu/L0FWztgawLVT84i9MsEwgh8qj2srEWhaDwaQHzUnnhqisfQ5Pk0j4rKO098k5d8A3sz0eontswXF5doS2TeTqwaOVxd39/c3T7kpIykJaVIoMt4QrUn5hRPde1l/S/z0J4Yc1iaxMbK0Maa3R+MQ+3lwrL8DZW9fsBjKv2EwJhmnVIOSkqJOlCCjZUDU9VB2oLWmqcfehyRzlx3FqyIA9ttDkbRgW3NAmev0vuVuy5PagSXP9gsELnfaJMNnyGomt2xtdqGpCO53KojMBGWsb8wY0Y+jJwwTDbZMBBPNXUntY4XyeYq2e5mLEdFfuzw04BAvOXHEX6d5b5K5HMgtj3hzTEMCNZXKpIVGBw8Il6n8hS7OulMG55OsVnKx+EHHxN7DLUFG5GTswhjl9aeiGieAz+MxSOVyxMMPAKlDkZ9LCxkpaf/JdH5gcWUx4N/EDzAYX0CAAA=",
+    "class_url": "1&6&7&8&9&10&11&12&20&39&62&70&71&2&13&14&15&16&17&18&19&23&72&3&25&26&27&28&47&4&29&30&31&44&45&48&49&50&51&53&54&63&64&65&66&67&68&69&73&75&55&56&57&58&59&60&61&74"
+  },
+  {
+    "name": "爱奇艺资源",
+    "url": "https://iqiyizy.com",
+    "parse_url": "https://www.iqiyizyjx.com/?url=",
+    "cate_exclude": "",
+    "class_name": "H4sIAD/cdWoC/zWQUXKCMBCGb5N79LG3qjBFYTqC04rVMvWhaKxFRR1tBUIvw2bDLUyW8JTv3/1395/g2wXEkUGwaUSC/pBBnIDPDeHoKN1nIj6BW2lIDiL5FJPP57YrR+9N4RO5gXQW1N1fodgRhan6Ih+MPQhP5HMyjCe0OTig2BIN6nZRG1L7HMSUastuRbCR1Q92SdX/J5Y7fZ3Bh2gKbqhdz+XfgWj5rcuGZMaxHpMvzOWtptpsJZOM6PILaUx0zu2EvkZPWSm/YJDydu5ZYbaHeS9mK32mF3Smn6GgfbBOdO5edKGsoKVWtMMXnG6taMSrck5MXc8YuezhUddMsqZaY+TpH7kD3Rx0pbUBAAA=",
+    "class_url": "7&10&11&12&13&14&15&16&17&18&19&20&21&22&23&24&25&5&8&26&27&28&29&30&31&32&33&38&9&34&35&36&37&40&1&2&3&4&6&41&42&43&39"
+  },
+  {
+    "name": "丫丫资源",
+    "url": "https://yayazy2.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "H4sIAGLcdWoC/zWSXVLCMBDHb5MTeAtnvIXOOOOjDz5KkY/iCHTEItIBRihR+ZYPaWnKZbLZ9BamSfO0/9/uZnezCVJP9JawmPJoRLCzB7Yh0PjiLEC3RsAPwKW5wvpGlCtaUQ+iU65EqS0efZ3nUhuNf4C96Wj9nceujja+sKNPZM5erFtFm6vr+5u724eCLi4LoYykVVWRQJ/xmOZKzCmmzVxlw2/t6IbaHFc6sbXWtDVm/wcTP1dFB1n7gfohd+ApkW5MRNKBzoYnHwQmNOtVrbsbqvIWVOnW2oLuX4C6jkhmdjoD5qgFM20Buo4FM5oBnkyxXdU3UqUMmGx+dDGmRIZn4Uc20g1FMC+AHyfikcpVCiOHQLWHwRDLC1kfqHdiwq/hcKE3Ebgwtr0h3Gafnig9q6dUG3uRbK6Szfomclzhpx5PRwSiHT+N8fssDw0inzyxGwhnjr5HsLlWkazM4OgQ8TqVaWT7JDNdh23Uy0k6lqsd4exVOr9y3+fxM8HVEttlIg/b3GSfT+A11H/4B0Ay5S59AgAA",
+    "class_url": "74&1&6&7&8&9&10&11&20&12&39&70&71&62&2&13&14&15&16&17&18&19&23&72&3&47&25&26&27&28&4&29&30&31&44&45&55&57&56&58&59&60&61&54&63&64&65&66&67&68&69&73&75&53&48&49&50&51"
+  },
+  {
+    "name": "如意资源",
+    "url": "https://www.ryzy.tv",
+    "parse_url": "https://ruyiplayer.com/?url=",
+    "cate_exclude": "",
+    "class_name": "H4sIAB/edWoC/zWQ8U7CMBCH36bPqSJIZyJbwClxkUSRYgQ6RFS2FV+md9e9heu1+6vfd/n1d01pdgSzJ3kjIFlbUzDlBUjliVQGp9oTXqZ4kfNsvMfBkHNSRcLxo62kJ7crwdzHPprVxP3CNitKR37cvlxDlnD075nqbVci4MnYSnnCjaLznad2NcdfzbR47wKcm5R4OnPu4Q2LDdPxB5Y506GMOVqE2mSNzQe/JSxg93d9ZZSwMEq3cFL2EoqDUN04WXHVUrXzUfB4oRfu7YV7o4RPcOrV6S9hzdRdfQr3faB0IEjv+DCZPzDXTlcwvP0H3/PBMJcBAAA=",
+    "class_url": "1&6&7&9&10&8&11&12&20&47&34&45&2&13&16&14&15&21&22&23&24&46&4&29&30&31&32&33&3&25&26&27&28&35&36&37&38&39&40"
+  },
+  {
+    "name": "无尽资源",
+    "url": "https://api.wujinapi.me",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "H4sIAFhXhmYC/zVRWVbCQBC8zZxTwxp8CnliFI2AEhzUaIIQhSxwmeklt3Ayk/xVdVe/7qqmaQrlVvB5TvkXuFJQXrCbCRhtsPgUnHb5O66ZKgNyBwL8QKtqRMMtdnoGSQ+OeY3wcoIXvtG5suni8EFlrqk9lSqT9ZLqbYaHuEYwTvB4MotPN1pgar0IvJGAcI/PL0IVbzTpmz3ZB5R3NaoW740W79cYRAalfxD6Zj6U1azfGNECrW6JXjpOWhJJvbP1a2+zru1MS4ysJU5EvmfMjDY0NaZpFFP5YWrrQRNE5aSYjMmGi7ukPkuVt+z8cPqksitB8TdNOkK3WfZZrjjeC1qYD9gj24XWVUOKKUy3qngU/Lurx6vXrk7KpGyG1MGlTDbx2OAEr8/oHxti42qIOoR4ITk+wdIR0J9RsKDOFw/nAgMXVu0JsN5Vrx5eXumP639dcxnR0ITPXQ/3c5uJgONe5St6P/Ov/t045FVP5TN1Wgq6SXSn6pRwcP4BxMt0fHACAAA=",
+    "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&35&36&37&38&39&40&41&42&43&44&45&46&47&48&49&50&51&52&53&54&55&56&57&58&59"
+  },
+  {
+    "name": "樱花资源",
+    "url": "https://m3u8.apiyhzy.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "",
+    "class_url": ""
+  },
+  {
+    "name": "闪电资源",
+    "url": "https://sdzyapi.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "",
+    "class_url": ""
+  },
+  {
+    "name": "虎牙资源",
+    "url": "https://www.huyaapi.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "",
+    "class_url": ""
+  },
+  {
+    "name": "金鹰资源",
+    "url": "https://jyzyapi.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "",
+    "class_url": ""
+  },
+  {
+    "name": "魔都资源",
+    "url": "https://www.mdzyapi.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "",
+    "class_url": ""
+  },
+  {
+    "name": "CK资源",
+    "url": "https://ckzy.me",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "",
+    "class_url": ""
+  },
+  {
+    "name": "爱坤资源",
+    "url": "https://ikunzyapi.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "",
+    "class_url": ""
+  },
+  {
+    "name": "优质1080",
+    "url": "https://api.yyzy-tv.vip",
+    "parse_url": "",
+    "api": "/inc/api_mac10.php",
+    "cate_exclude": "",
+    "class_name": "",
+    "class_url": ""
+  },
+  {
+    "name": "优质1080备",
+    "url": "https://api.yzzy-api.com",
+    "parse_url": "",
+    "api": "/inc/api_mac10.php",
+    "cate_exclude": "",
+    "class_name": "",
+    "class_url": ""
+  },
+  {
+    "name": "天涯影视",
+    "url": "https://tyyszyapi.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "",
+    "class_url": ""
+  },
+  {
+    "name": "牛牛资源",
+    "url": "https://api.niuniuzy.me",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "",
+    "class_url": ""
+  },
+  {
+    "name": "茅台资源",
+    "url": "https://mtzy5.com",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "",
+    "class_url": ""
+  },
+  {
+    "name": "飘零影院",
+    "url": "https://p2100.net",
+    "parse_url": "",
+    "cate_exclude": "",
+    "class_name": "",
+    "class_url": ""
+  }
+]

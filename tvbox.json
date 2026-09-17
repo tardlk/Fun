@@ -1,39 +1,48 @@
 {
-  "sites": [
-    {
-      "key": "douban",
-      "name": "豆瓣",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/js/豆瓣推荐.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "Plex",
-      "name": "Plex",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/js/plex.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "{\"host\":\"http://your-plex-server:32400\",\"token\":\"your_plex_token\"}"
-    },
-    {
-      "key": "Emby",
-      "name": "Emby",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/js/emby.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "{\"host\":\"http://your-emby-server:8096\",\"username\":\"your_username\",\"password\":\"your_password\"}"
-    }
-  ],
-  "lives": [
-    {
-      "name": "TV",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv.m3u"
-    }
-  ]
+ "sites": [
+  {
+   "key": "douban",
+   "name": "豆瓣",
+   "type": 3,
+   "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/js/豆瓣推荐.js",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "Plex",
+   "name": "Plex",
+   "type": 3,
+   "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/js/plex.js",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": "{\"host\":\"http://your-plex-server:32400\",\"token\":\"your_plex_token\"}"
+  },
+  {
+   "key": "Emby",
+   "name": "Emby",
+   "type": 3,
+   "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/js/emby.js",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": "{\"host\":\"http://your-emby-server:8096\",\"username\":\"your_username\",\"password\":\"your_password\"}"
+  },
+  {
+   "key": "caiji",
+   "name": "采集之王",
+   "type": 3,
+   "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/js/drpy2.min.js",
+   "searchable": 1,
+   "quickSearch": 1,
+   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/js/caiji.js?type=url&params=https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/js/caiji_sites.json$1$1"
+  }
+ ],
+ "lives": [
+  {
+   "name": "TV",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/iptv/tv.m3u"
+  }
+ ]
 }
