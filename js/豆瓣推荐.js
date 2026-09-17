@@ -39,13 +39,14 @@ var FILTERS = {
 };
 
 function getJSON(url) {
-    try {
-        var res = req(url, { headers: HEADERS });
-        if (!res || !res.content) return null;
-        return JSON.parse(res.content);
-    } catch (e) {
-        return null;
+    for (var i = 0; i < 2; i++) {
+        try {
+            var res = req(url, { headers: HEADERS });
+            if (res && res.content) return JSON.parse(res.content);
+        } catch (e) {
+        }
     }
+    return null;
 }
 
 function fixPic(url) {
@@ -55,7 +56,9 @@ function fixPic(url) {
 function getPic(item) {
     if (!item) return '';
     if (item.pic) return item.pic.large || item.pic.normal || item.pic.medium || item.pic.small || '';
-    return item.cover_url || item.tile_cover && item.tile_cover.url || item.img || '';
+    if (item.cover_url) return item.cover_url;
+    if (item.tile_cover && item.tile_cover.url) return item.tile_cover.url;
+    return item.img || '';
 }
 
 function yearOf(subtitle) {
@@ -98,10 +101,15 @@ async function homeVod() {
         groups.push(data && Array.isArray(data.items) ? data.items.map(toVod) : []);
     }
     var list = [];
+    var seen = {};
     var max = Math.max(groups[0].length, groups[1].length, groups[2].length);
     for (var j = 0; j < max; j++) {
         for (var k = 0; k < groups.length; k++) {
-            if (j < groups[k].length) list.push(groups[k][j]);
+            if (j >= groups[k].length) continue;
+            var item = groups[k][j];
+            if (seen[item.vod_name]) continue;
+            seen[item.vod_name] = 1;
+            list.push(item);
         }
     }
     return JSON.stringify({ list: list });
@@ -139,26 +147,7 @@ async function category(tid, pg, filter, extend) {
 }
 
 async function detail(id) {
-    var text = typeof id === 'string' ? id : (id && id[0]) || '';
-    if (!text) return JSON.stringify({ list: [] });
-    if (text.indexOf('msearch:') === 0) {
-        return JSON.stringify({ list: [] });
-    }
-    var data = getJSON(REXXAR + '/subject/' + text);
-    if (!data) return JSON.stringify({ list: [] });
-    var rating = data.rating && data.rating.value ? data.rating.value : '';
-    var vod = {
-        vod_id: text,
-        vod_name: data.title || '',
-        vod_pic: fixPic(data.cover_url || getPic(data)),
-        vod_year: String(data.year || ''),
-        vod_area: (data.countries || []).join(' / '),
-        vod_actor: (data.actors || []).map(function (a) { return a.name || ''; }).join(' / '),
-        vod_director: (data.directors || []).map(function (d) { return d.name || ''; }).join(' / '),
-        vod_content: data.intro || data.card_subtitle || '',
-        vod_remarks: rating ? '评分: ' + rating : ''
-    };
-    return JSON.stringify({ list: [vod] });
+    return JSON.stringify({ list: [] });
 }
 
 async function search(key, quick, pg) {
@@ -172,7 +161,7 @@ async function search(key, quick, pg) {
             vod_id: 'msearch:' + (it.title || ''),
             vod_name: it.title || '',
             vod_pic: fixPic(it.img || ''),
-            vod_remarks: it.year || '',
+            vod_remarks: it.episode ? it.episode + '集' : (it.year || ''),
             vod_year: it.year || ''
         };
     });
