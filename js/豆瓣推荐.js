@@ -87,10 +87,23 @@ async function home(filter) {
 }
 
 async function homeVod() {
-    var url = REXXAR + '/subject/recent_hot/movie?start=0&limit=20&category='
-        + encodeURIComponent('热门') + '&type=' + encodeURIComponent('全部');
-    var data = getJSON(url);
-    var list = data && Array.isArray(data.items) ? data.items.map(toVod) : [];
+    var urls = [
+        REXXAR + '/subject/recent_hot/movie?start=0&limit=15&category=' + encodeURIComponent('热门') + '&type=' + encodeURIComponent('全部'),
+        REXXAR + '/subject/recent_hot/tv?start=0&limit=15&category=tv&type=tv',
+        REXXAR + '/subject/recent_hot/tv?start=0&limit=15&category=show&type=show'
+    ];
+    var groups = [];
+    for (var i = 0; i < urls.length; i++) {
+        var data = getJSON(urls[i]);
+        groups.push(data && Array.isArray(data.items) ? data.items.map(toVod) : []);
+    }
+    var list = [];
+    var max = Math.max(groups[0].length, groups[1].length, groups[2].length);
+    for (var j = 0; j < max; j++) {
+        for (var k = 0; k < groups.length; k++) {
+            if (j < groups[k].length) list.push(groups[k][j]);
+        }
+    }
     return JSON.stringify({ list: list });
 }
 
