@@ -27,6 +27,16 @@
    "quickSearch": 1
   },
   {
+   "key": "yt4k",
+   "name": "影探4K",
+   "type": 3,
+   "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/js/yingtan.js?v=20261113-1",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "timeout": 90
+  },
+  {
    "key": "ivdy",
    "name": "爱电影",
    "type": 3,
