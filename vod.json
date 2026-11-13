@@ -27,6 +27,16 @@
    "quickSearch": 1
   },
   {
+   "key": "ivdy",
+   "name": "爱电影",
+   "type": 3,
+   "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/js/ivdy.js",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": "{\"host\":\"https://ivdy.com\"}"
+  },
+  {
    "key": "cj_360zycom",
    "name": "360资源",
    "type": 1,
