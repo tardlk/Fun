@@ -11,6 +11,10 @@ var ACTIVE_HOST = '';
 var HOST_TIME = 0;
 var DEVICE_ID = '';
 var FILTER_CACHE = null;
+var HOME_CACHE = null;
+var HOME_TIME = 0;
+var PLAYLISTS = {};
+var PLAYLIST_ORDER = [];
 var PAGE_SIZE = 20;
 var CLASSES = [
     { type_id: '1', type_name: '电影' },
@@ -63,9 +67,12 @@ async function discoverHost(force) {
     if (!force && ACTIVE_HOST && Date.now() - HOST_TIME < 15 * 60 * 1000) return ACTIVE_HOST;
     var url = originOf(CONFIG.host || ENTRY) + '/';
     for (var i = 0; i < 6; i++) {
-        var response = await request(url, {
-            headers: { 'User-Agent': UA }, redirect: 0, timeout: 15000
-        });
+        var options = { method: 'header', headers: { 'User-Agent': UA }, redirect: 0, timeout: 8000 };
+        var response = await request(url, options);
+        if (Number(response.code) === 405 || Number(response.code) === 501) {
+            options.method = 'get';
+            response = await request(url, options);
+        }
         var code = Number(response.code);
         var location = headerValue(response.headers, 'location');
         if (code >= 300 && code < 400 && location) {
@@ -299,7 +306,7 @@ async function init(ext) {
     if (!cfg || typeof cfg !== 'object' || Array.isArray(cfg)) throw new Error('ext 必须是 JSON 对象');
     CONFIG = cfg;
     ACTIVE_HOST = ''; HOST_TIME = 0; DEVICE_ID = ''; FILTER_CACHE = null;
-    await discoverHost(false);
+    HOME_CACHE = null; HOME_TIME = 0; PLAYLISTS = {}; PLAYLIST_ORDER = [];
 }
 
 async function home(filter) {
@@ -326,15 +333,19 @@ async function home(filter) {
             });
         } catch (error) { log(error); }
     }
-    return JSON.stringify({ class: CLASSES, filters: filters });
+    var result = { class: CLASSES, filters: filters, list: [] };
+    try { result.list = await getHomeVideos(); }
+    catch (error) { log(error); }
+    return JSON.stringify(result);
 }
 
-async function homeVod() {
+async function getHomeVideos() {
+    if (HOME_CACHE && Date.now() - HOME_TIME < 2 * 60 * 1000) return HOME_CACHE;
+    var list = [], seen = {};
     try {
         var data = await apiGet('/anonymous/v1/home/all/list', { clientType: 1, pageNum: 1 });
         var keys = ['homeBroadcastPageData', 'homeNewMoviePageData', 'newestTvPageData', 'newestVarietyPageData', 'newestCartoonPageData', 'newestShortTvPageData'];
         var groups = keys.map(function (key) { return data && data[key] && data[key].list || []; });
-        var list = [], seen = {};
         for (var i = 0; list.length < 60; i++) {
             var found = false;
             for (var j = 0; j < groups.length && list.length < 60; j++) {
@@ -345,8 +356,18 @@ async function homeVod() {
             }
             if (!found) break;
         }
-        return JSON.stringify({ list: list });
-    } catch (error) { return failure(error, { list: [] }); }
+    } catch (error) { log(error); }
+    if (!list.length) {
+        var fallback = await apiGet('/anonymous/video/list', { type1: 2, pageNum: 1, pageSize: PAGE_SIZE, sort: '1', sortBy: '1' });
+        list = pageResult(fallback, 1).list;
+    }
+    if (list.length) { HOME_CACHE = list; HOME_TIME = Date.now(); }
+    return list;
+}
+
+async function homeVod() {
+    try { return JSON.stringify({ list: await getHomeVideos() }); }
+    catch (error) { return failure(error, { list: [] }); }
 }
 
 async function category(tid, pg, filter, extend) {
@@ -395,6 +416,50 @@ async function search(wd, quick, pg) {
     } catch (error) { return failure(error, { page: page, pagecount: page, list: [] }); }
 }
 
+function mediaHeaders() {
+    return { 'User-Agent': UA, 'Referer': ACTIVE_HOST + '/' };
+}
+
+function normalizePlaylist(content, base) {
+    content = text(content).replace(/^\ufeff/, '').replace(/\r\n?/g, '\n');
+    if (content.trim().indexOf('#EXTM3U') !== 0) throw new Error('播放地址未返回 HLS 播放列表');
+    return content.split('\n').map(function (line) {
+        var trimmed = line.trim();
+        if (!trimmed) return '';
+        if (trimmed.charAt(0) !== '#') return absoluteUrl(trimmed, base);
+        return line.replace(/URI="([^"]+)"/g, function (match, uri) {
+            return 'URI="' + (/^(?:data|skd):/i.test(uri) ? uri : absoluteUrl(uri, base)) + '"';
+        });
+    }).join('\n').replace(/\n*$/, '\n');
+}
+
+async function localPlaylist(url) {
+    var base = url;
+    for (var i = 0; i < 4; i++) {
+        var response = await request(base, { headers: mediaHeaders(), redirect: 0, timeout: 8000 });
+        var code = Number(response.code);
+        var location = headerValue(response.headers, 'location');
+        if (code >= 300 && code < 400 && location) { base = absoluteUrl(location, base); continue; }
+        if (code < 200 || code >= 300) throw new Error('播放列表访问失败 HTTP ' + code);
+        var key = md5(base + '|' + Date.now() + '|' + Math.random()).slice(0, 20);
+        PLAYLISTS[key] = normalizePlaylist(response.content, base);
+        PLAYLIST_ORDER.push(key);
+        while (PLAYLIST_ORDER.length > 8) delete PLAYLISTS[PLAYLIST_ORDER.shift()];
+        var proxyBase = getProxy(true);
+        var site = CONFIG.siteKey ? '&siteKey=' + encodeURIComponent(CONFIG.siteKey) : '';
+        return proxyBase + (proxyBase.indexOf('?') < 0 ? '?' : '&') + 'ivdy=' + key + site + '&format=m3u8';
+    }
+    throw new Error('播放列表重定向次数过多');
+}
+
+// TVBoxOS 的普通 JS proxy 直接读取返回数组，必须保持同步；只返回已取得的文本。
+// TS / 音视频分片保留原始签名地址，由播放器直接请求，不经过 JS 中转。
+function proxy(params) {
+    var key = params && params.ivdy;
+    if (!key || !Object.prototype.hasOwnProperty.call(PLAYLISTS, key)) return [404, 'text/plain; charset=utf-8', '播放列表已失效，请重新选择剧集'];
+    return [200, 'application/vnd.apple.mpegurl', PLAYLISTS[key], { 'Cache-Control': 'no-store', 'Access-Control-Allow-Origin': '*' }];
+}
+
 async function play(flag, id, vipFlags) {
     var parts = text(Array.isArray(id) ? id[0] : id).split('|');
     if (parts.length !== 2 || !/^\d+$/.test(parts[0]) || !/^\d+$/.test(parts[1])) {
@@ -410,8 +475,12 @@ async function play(flag, id, vipFlags) {
         var max = Number(CONFIG.maxResolution) || 0;
         var preferred = max > 0 ? available.filter(function (line) { return Number(line.resolution || 0) <= max; }) : available;
         var selected = preferred[0] || available[available.length - 1];
-        return JSON.stringify({ parse: 0, url: selected.url, header: { 'User-Agent': UA, 'Referer': ACTIVE_HOST + '/' } });
+        var url = selected.url;
+        if (CONFIG.proxyPlaylist !== false && typeof getProxy === 'function') url = await localPlaylist(url);
+        var headers = mediaHeaders();
+        headers['TVBox-Format'] = 'hls';
+        return JSON.stringify({ parse: 0, jx: 0, playUrl: '', url: url, format: 'application/vnd.apple.mpegurl', header: headers });
     } catch (error) { return failure(error, { parse: 0, url: '' }); }
 }
 
-export default { init: init, home: home, homeVod: homeVod, category: category, detail: detail, search: search, play: play };
+export default { init: init, home: home, homeVod: homeVod, category: category, detail: detail, search: search, play: play, proxy: proxy };

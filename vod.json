@@ -30,11 +30,12 @@
    "key": "ivdy",
    "name": "爱电影",
    "type": 3,
-   "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/js/ivdy.js",
+   "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tardlk/Fun/main/js/ivdy.js?v=20261113-2",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "{\"host\":\"https://ivdy.com\"}"
+   "ext": "{\"host\":\"https://ivdy.com\",\"siteKey\":\"ivdy\"}",
+   "timeout": 30
   },
   {
    "key": "cj_360zycom",
